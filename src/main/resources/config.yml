@@ -1,0 +1,9 @@
+
+# 根指令 /llo 支持tab补全
+
+debug: true
+
+required_key: "lot" # 消耗材料的内部识别键  lot: xxx
+lucky_key: "lluc" # 加成物的识别键  lluc: xxx
+precision: "#.#" # 展示的概率的精度
+enable_sound: true # 是否启用声音

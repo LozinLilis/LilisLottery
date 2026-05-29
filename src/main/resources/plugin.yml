@@ -1,0 +1,8 @@
+name: LilisLottery
+version: '${project.version}'
+main: org.lozin.lilislottery.main.LilisLottery
+api-version: '1.20'
+authors: [LozinLilis]
+commands:
+  lilis_lot:
+    aliases: [llo]

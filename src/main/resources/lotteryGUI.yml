@@ -1,0 +1,33 @@
+title: "&0&lLilisLottery 高级抽奖机"
+owner: "private" # private, public
+size: 45
+content:
+  bar:
+    material: STAINED_GLASS_PANE
+    data: 5
+    name: " "
+    amount: 1
+    slot: "0-8,9,18,27,36,17,26,35,44,36-44"
+  require_pre:
+    material: BOOK
+    name: "&6&l材料消耗浏览"
+    slot: 10
+    action: "view"
+  result_pre:
+    material: PAPER
+    name: "&6&l结果预览"
+    slot: 28
+  lucky:
+    material: VINE
+    name: "&a&l特殊槽"
+    lore:
+      - "&7将加成物放在这"
+    slot: 22
+    action: "replace"
+  confirm:
+    material: anvil
+    name: "&a&l确定"
+    lore:
+      - "&7点击进行抽取"
+    slot: 25
+    action: "confirm"
